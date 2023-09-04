@@ -1,0 +1,75 @@
+.login-container {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+
+}
+
+.login-logo {
+  flex: 1;
+  text-align: center;
+}
+
+.login-logo p {
+  font-weight: bold;
+}
+
+label {
+  font-weight: bold;
+}
+
+.login-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.login-form {
+  flex: 2;
+  text-align: center;
+}
+
+.login-container h1 {
+  font-size: 24px;
+}
+
+.login-button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #1aebb6;
+  border-color: #1aebb6;
+  border-radius: 4px;
+  width: 90%;
+}
+
+.login-input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-input:focus {
+  border-color: #1aebb6;
+  box-shadow: 0px 0px 5px rgba(26, 235, 182, 0.5);
+}
+
+.need-help-link {
+  position: absolute;
+  font-weight: bold;
+  top: 25px;
+  right: 25px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.forgot-password-link {
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  font-size: small;
+  justify-content: right;
+}
